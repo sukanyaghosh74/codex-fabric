@@ -143,7 +143,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🏆 Acknowledgments
 
-Built with ❤️ by Sukanya Ghosh. 
+Built with 🩷 by Sukanya Ghosh. 
 Special thanks to:
 - LangChain & LangGraph communities
 - Neo4j for graph database technology
