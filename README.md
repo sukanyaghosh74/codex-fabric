@@ -56,7 +56,7 @@ Codex Fabric is a modular, scalable toolchain that automatically analyzes codeba
 
 1. **Clone and Setup**
 ```bash
-git clone https://github.com/your-org/codex-fabric.git
+git clone https://github.com/sukanyaghosh74/codex-fabric.git
 cd codex-fabric
 ```
 
@@ -125,7 +125,8 @@ pytest tests/integration/
 # Start all services
 docker-compose up -d
 
-# Backend development
+# Backend development comment
+# comment
 uvicorn api.main:app --reload
 
 # Frontend development
@@ -142,7 +143,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🏆 Acknowledgments
 
-Built with ❤️ by the Codex Fabric team. Special thanks to:
+Built with ❤️ by Sukanya Ghosh. 
+Special thanks to:
 - LangChain & LangGraph communities
 - Neo4j for graph database technology
 - OpenAI for LLM capabilities
