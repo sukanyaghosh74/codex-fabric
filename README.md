@@ -55,41 +55,41 @@ Codex Fabric is a modular, scalable toolchain that automatically analyzes codeba
 ### Installation
 
 1. **Clone and Setup**
-```bash
+```powershell
 git clone https://github.com/sukanyaghosh74/codex-fabric.git
 cd codex-fabric
 ```
 
 2. **Install Dependencies**
-```bash
+```powershell
 # Backend
 pip install -r requirements.txt
 
 # Frontend
-cd ui && npm install
+cd ui; npm install
 
 # CLI
 pip install -e ./cli
 ```
 
 3. **Start Services**
-```bash
+```powershell
 docker-compose up -d neo4j redis postgres
 ```
 
 4. **Initialize Codex Fabric**
-```bash
-cfabric init --path /path/to/your/codebase
+```powershell
+cfabric init --path C:\path\to\your\codebase
 ```
 
 ### Basic Usage
 
-```bash
+```powershell
 # Parse a codebase and build knowledge graph
-cfabric init --path ./my-project
+cfabric init --path .\my-project
 
 # Trace git history and runtime signals
-cfabric trace --path ./my-project
+cfabric trace --path .\my-project
 
 # Get AI-powered insights
 cfabric suggest --query "Where is authentication handled?"
@@ -109,19 +109,19 @@ cfabric serve
 ## 🧪 Development
 
 ### Running Tests
-```bash
+```powershell
 # Backend tests
 pytest tests/
 
 # Frontend tests
-cd ui && npm test
+cd ui; npm test
 
 # Integration tests
 pytest tests/integration/
 ```
 
 ### Local Development
-```bash
+```powershell
 # Start all services
 docker-compose up -d
 
@@ -130,7 +130,7 @@ docker-compose up -d
 uvicorn api.main:app --reload
 
 # Frontend development
-cd ui && npm run dev
+cd ui; npm run dev
 ```
 
 ## 🤝 Contributing
