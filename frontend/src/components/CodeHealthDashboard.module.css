@@ -1,0 +1,36 @@
+.panel {
+  background: none;
+  color: #c8f6f6;
+}
+.panel h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #4de0e0;
+}
+.metricRow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.1rem;
+  font-size: 1rem;
+}
+.barWrapper {
+  flex: 1;
+  background: #23272f;
+  border-radius: 0.5rem;
+  height: 0.7rem;
+  margin: 0 0.5rem;
+  overflow: hidden;
+}
+.bar {
+  background: #4de0e0;
+  height: 100%;
+  border-radius: 0.5rem;
+  transition: width 0.4s;
+}
+.value {
+  min-width: 2.5rem;
+  text-align: right;
+  color: #7be0e0;
+} 

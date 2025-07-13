@@ -1,0 +1,45 @@
+.panel {
+  background: none;
+  color: #c8f6f6;
+}
+.panel h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #4de0e0;
+}
+.list {
+  list-style: disc inside;
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+}
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+.button {
+  background: #4de0e0;
+  color: #181c20;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.button:hover {
+  background: #7be0e0;
+}
+.buttonSecondary {
+  background: #23272f;
+  color: #c8f6f6;
+  border: 1px solid #4de0e0;
+  border-radius: 0.6rem;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.buttonSecondary:hover {
+  background: #181c20;
+} 

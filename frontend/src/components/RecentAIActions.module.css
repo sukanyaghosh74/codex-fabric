@@ -1,0 +1,31 @@
+.panel {
+  background: none;
+  color: #c8f6f6;
+}
+.panel h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #4de0e0;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid #23272f;
+  font-size: 1rem;
+}
+.item:last-child {
+  border-bottom: none;
+}
+.time {
+  color: #7be0e0;
+  font-size: 0.95rem;
+  margin-left: 1.2rem;
+} 

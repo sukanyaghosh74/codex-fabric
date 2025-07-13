@@ -1,0 +1,27 @@
+.panel {
+  background: none;
+  color: #c8f6f6;
+}
+.panel h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #4de0e0;
+}
+.treeWrapper {
+  background: #181c20;
+  border-radius: 0.7rem;
+  padding: 0.7rem 1rem;
+  box-shadow: 0 1px 8px #0003;
+}
+.tree {
+  list-style: none;
+  padding-left: 1.2rem;
+  margin: 0;
+}
+.node {
+  color: #c8f6f6;
+  font-size: 1rem;
+  padding: 0.2rem 0.3rem;
+  display: inline-block;
+} 
