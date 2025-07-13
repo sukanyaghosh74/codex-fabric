@@ -1,6 +1,8 @@
 import styles from './FileExplorer.module.css';
 
-const files = [
+type FileNode = { name: string; children?: FileNode[] };
+
+const files: FileNode[] = [
   {
     name: 'src',
     children: [
@@ -23,7 +25,7 @@ const files = [
   },
 ];
 
-function renderTree(nodes: any[]) {
+function renderTree(nodes: FileNode[]) {
   return (
     <ul className={styles.tree}>
       {nodes.map((node, i) => (
